@@ -1,1 +1,1 @@
-#  Arbitrary precision integer calculator
+#  Arbitrary Precision Integer Calculator
