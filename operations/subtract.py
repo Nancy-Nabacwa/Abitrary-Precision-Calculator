@@ -1,3 +1,15 @@
+"""
+ * ----------------------------------------------------------------------------
+ *   Author         : Nancy Nabacwa
+ *   Date           : December 10, 2024
+ *   File           : subtract.py
+ *   Title          : Subtraction Functionality
+ *   Description    : This file implements string-based subtraction for arbitrary
+ *                    precision integers, including handling borrow logic.
+ * ----------------------------------------------------------------------------
+"""
+
+
 def subtract(num1, num2):
     if len(num1) < len(num2) or (len(num1) == len(num2) and num1 < num2):
         return '-' + subtract(num2, num1)

@@ -1,3 +1,15 @@
+"""
+ * ----------------------------------------------------------------------------
+ *   Author         : Nancy Nabacwa
+ *   Date           : December 10, 2024
+ *   File           : multiply.py
+ *   Title          : Multiplication Functionality
+ *   Description    : This file implements string-based multiplication for arbitrary
+ *                    precision integers, using repeated addition for partial products.
+ * ----------------------------------------------------------------------------
+"""
+
+
 from operations.add import add
 
 def multiply(num1, num2):

@@ -1,3 +1,14 @@
+"""
+ * ----------------------------------------------------------------------------
+ *   Author         : Nancy Nabacwa
+ *   Date           : December 10, 2024
+ *   File           : add.py
+ *   Title          : Addition Functionality
+ *   Description    : This file implements string-based addition for arbitrary
+ *                    precision integers by processing numbers digit by digit.
+ * ----------------------------------------------------------------------------
+"""
+
 
 def add(num1, num2):
     num1, num2 = num1[::-1], num2[::-1]

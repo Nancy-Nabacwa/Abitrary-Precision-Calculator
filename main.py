@@ -1,3 +1,15 @@
+"""
+ * ----------------------------------------------------------------------------
+ *   Author         : Nancy Nabacwa
+ *   Date           : December 10, 2024
+ *   File           : main.py
+ *   Title          : Entry Point for Arbitrary Precision Calculator
+ *   Description    : This file contains the REPL loop, handles user inputs,
+ *                    sanitizes inputs, and calls the main calculator logic.
+ * ----------------------------------------------------------------------------
+"""
+
+
 from calculator import ArbitraryPrecisionCalculator
 
 def sanitize_input(expression):

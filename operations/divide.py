@@ -1,3 +1,15 @@
+"""
+ * ----------------------------------------------------------------------------
+ *   Author         : Nancy Nabacwa
+ *   Date           : December 10, 2024
+ *   File           : divide.py
+ *   Title          : Division Functionality
+ *   Description    : This file implements string-based division for arbitrary
+ *                    precision integers, simulating long division logic.
+ * ----------------------------------------------------------------------------
+"""
+
+
 from operations.subtract import subtract
 from operations.add import add
 from operations.utils import compare_strings
